@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Go
+/gateway-go/vidgrep-gateway
+*.test
+
+# Rust
+/processor-rust/target/
+
+# Node / Next.js
+node_modules/
+/frontend-ts/.next/
+/frontend-ts/out/
+
+# Media / env / editors
+*.mp4
+*.mov
+.env
+.vscode/
+.idea/
+.DS_Store
